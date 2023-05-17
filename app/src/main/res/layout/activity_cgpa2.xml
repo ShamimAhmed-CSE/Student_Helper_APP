@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="#A3EA52"
+    tools:context=".Cgpa2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+
+            <EditText
+                android:id="@+id/creditEcitTextId"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:hint="Credit"
+                android:inputType="numberDecimal"
+                android:textSize="30sp"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:id="@+id/gradeEditTextId"
+                android:layout_width="140dp"
+                android:textSize="30sp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"
+                android:hint="Grade"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/addButtonId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:textSize="30sp"
+                android:text="ADD"/>
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/resetButtonId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:textSize="30sp"
+                android:text="RESET"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/cgpaTextViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="CGPA/GPA is: "/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/serialTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:text="Serial"/>
+
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:id="@+id/creditTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:text="Credit"/>
+
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:id="@+id/gradeTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:text="Grade"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
