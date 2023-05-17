@@ -11,7 +11,7 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@drawable/logo"
         android:label="GUB Student Helper"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.FinalProject"
         tools:targetApi="31">

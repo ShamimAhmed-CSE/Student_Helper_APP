@@ -65,5 +65,5 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:layout_marginTop="100dp"
-        android:text="contact:\nahidsheikh2001@gmail.com"/>
+        android:text="contact:\nnahidsheikh2001@gmail.com"/>
 </LinearLayout>

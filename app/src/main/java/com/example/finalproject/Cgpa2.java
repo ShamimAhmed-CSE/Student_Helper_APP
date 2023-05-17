@@ -29,7 +29,7 @@ public class Cgpa2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getSupportActionBar().hide();
+        //getSupportActionBar().hide();
         setContentView(R.layout.activity_cgpa2);
         credit = findViewById(R.id.creditEcitTextId);
         grade = findViewById(R.id.gradeEditTextId);

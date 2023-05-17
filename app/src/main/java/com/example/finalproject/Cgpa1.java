@@ -19,7 +19,7 @@ public class Cgpa1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cgpa1);
-        getSupportActionBar().hide();
+        //getSupportActionBar().hide();
         cgpaCalc = findViewById(R.id.cgpaId);
         directCgpaCalc = findViewById(R.id.directcgpaId);
 

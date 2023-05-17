@@ -28,7 +28,7 @@ public class Cgpa3 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getSupportActionBar().hide();
+        //getSupportActionBar().hide();
         setContentView(R.layout.activity_cgpa3);
         cgpaEdit = findViewById(R.id.cgpaEditTextId);
         totalCreditEdit = findViewById(R.id.totalCreditEarnedEditTextId);
