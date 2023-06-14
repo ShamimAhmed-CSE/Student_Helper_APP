@@ -17,7 +17,6 @@ public class TuitionFees extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tuition_fees);
-        getSupportActionBar().hide();
         webView = findViewById(R.id.tuitionfee);
         webView.setWebViewClient(new WebViewClient());
         webView.loadUrl("https://payment.green.edu.bd");

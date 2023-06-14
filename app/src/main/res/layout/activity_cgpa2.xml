@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
 
     android:layout_height="match_parent"
-    android:background="#A3EA52"
+    android:background="#7FDEEA"
     tools:context=".Cgpa2">
 
 
@@ -27,6 +27,7 @@
                 android:layout_width="140dp"
                 android:layout_height="wrap_content"
                 android:hint="Credit"
+                android:fontFamily="@font/tr"
                 android:inputType="numberDecimal"
                 android:textSize="30sp"
                 android:textAlignment="center"/>
@@ -35,6 +36,7 @@
                 android:id="@+id/gradeEditTextId"
                 android:layout_width="140dp"
                 android:textSize="30sp"
+                android:fontFamily="@font/tr"
                 android:layout_marginLeft="20dp"
                 android:layout_height="wrap_content"
                 android:hint="Grade"
@@ -55,6 +57,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="70dp"
+                android:background="@drawable/btn"
+                android:fontFamily="@font/trb"
                 android:textSize="30sp"
                 android:text="ADD"/>
 
@@ -63,7 +67,9 @@
                 android:id="@+id/resetButtonId"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="@drawable/btn"
                 android:layout_marginLeft="40dp"
+                android:fontFamily="@font/trb"
                 android:textSize="30sp"
                 android:text="RESET"/>
 
@@ -75,6 +81,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="30sp"
+            android:fontFamily="@font/tr"
             android:text="CGPA/GPA is: "/>
 
         <LinearLayout
@@ -88,6 +95,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="30sp"
+                android:fontFamily="@font/tr"
                 android:textAlignment="center"
                 android:text="Serial"/>
 
@@ -97,6 +105,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="30sp"
+                android:fontFamily="@font/tr"
                 android:textAlignment="center"
                 android:text="Credit"/>
 
@@ -105,6 +114,7 @@
                 android:id="@+id/gradeTextViewId"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/tr"
                 android:textSize="30sp"
                 android:textAlignment="center"
                 android:text="Grade"/>

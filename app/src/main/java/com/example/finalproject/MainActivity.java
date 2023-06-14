@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        getSupportActionBar().hide();
+        //getSupportActionBar().hide();
         logo = findViewById(R.id.imageView);
         name = findViewById(R.id.logonameimg);
         own1 = findViewById(R.id.ownone);

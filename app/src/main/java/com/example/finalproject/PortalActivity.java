@@ -17,7 +17,6 @@ WebView webView;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_portal);
-        getSupportActionBar().hide();
         webView = findViewById(R.id.portal);
         webView.setWebViewClient(new WebViewClient());
         webView.loadUrl("https://studentportal.green.edu.bd/Account/login?ReturnUrl=%2F");

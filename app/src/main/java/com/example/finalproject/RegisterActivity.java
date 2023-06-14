@@ -119,7 +119,7 @@ public class RegisterActivity extends AppCompatActivity {
                                 }
                                 else {
                                     String status = "Hey there I'm using this";
-                                    imgURI =  "https://firebasestorage.googleapis.com/v0/b/ids2-52113.appspot.com/o/profile.png?alt=media&token=d6685b0c-4bdd-402b-9282-8e601c9bb77e";
+                                    imgURI =  "https://firebasestorage.googleapis.com/v0/b/checking-3732e.appspot.com/o/image_2023-05-29_082317047.png?alt=media&token=6df5759c-7578-4a3c-ba4c-c81be8dec500";
                                     Users users = new Users(auth.getUid(), name, email, imgURI, status);
                                     reference.setValue(users).addOnCompleteListener(new OnCompleteListener<Void>() {
                                         @Override

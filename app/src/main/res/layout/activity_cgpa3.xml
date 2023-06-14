@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#A3EA52"
+    android:background="#7FDEEA"
 
     tools:context=".Cgpa3">
 
@@ -19,6 +19,7 @@
             android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/trb"
             android:text="Previous/Last Semester"
             android:textColor="@color/black"
             android:textSize="30sp"/>
@@ -28,6 +29,7 @@
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:text="Step 1:"
+            android:fontFamily="@font/tr"
             android:textSize="15sp"/>
 
         <EditText
@@ -35,6 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="numberDecimal"
+            android:fontFamily="@font/tr"
             android:hint="CGPA" />
 
 
@@ -43,6 +46,7 @@
             android:id="@+id/totalCreditEarnedEditTextId"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/tr"
             android:inputType="numberDecimal"
             android:hint="Credit Earned" />
 
@@ -52,6 +56,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Current Semester"
+            android:fontFamily="@font/trb"
             android:textColor="@color/black"
             android:textSize="30sp"/>
 
@@ -59,6 +64,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
+            android:fontFamily="@font/tr"
             android:text="Step 2:"
             android:textSize="15sp"/>
 
@@ -68,12 +74,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Credit"
+            android:fontFamily="@font/tr"
             android:inputType="numberDecimal"/>
 
         <EditText
             android:id="@+id/gradeEditTextId"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/tr"
             android:hint="Enter Grade"
             android:inputType="numberDecimal"
             />
@@ -84,28 +92,33 @@
             <Button
                 android:id="@+id/addButtonId"
                 android:layout_marginTop="10dp"
-                android:layout_width="wrap_content"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:text="add"
-                android:textSize="20sp"
-
+                android:textSize="18sp"
+                android:background="@drawable/btn"
+                android:fontFamily="@font/trb"
                 android:layout_marginRight="10dp"/>
 
             <Button
                 android:id="@+id/calculateButtonId"
                 android:layout_marginTop="10dp"
-                android:layout_width="wrap_content"
+                android:layout_width="140dp"
                 android:layout_height="wrap_content"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:text="Calculate"
+                android:background="@drawable/btn"
+                android:fontFamily="@font/trb"
                 android:layout_marginRight="10dp"/>
 
             <Button
                 android:id="@+id/resetButtonId"
                 android:layout_marginTop="10dp"
-                android:layout_width="wrap_content"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:textSize="20sp"
+                android:textSize="18sp"
+                android:fontFamily="@font/trb"
+                android:background="@drawable/btn"
                 android:text="Reset"/>
 
         </LinearLayout>
@@ -129,6 +142,7 @@
         <TextView
             android:layout_margin="10dp"
             android:layout_width="wrap_content"
+            android:fontFamily="@font/tr"
             android:layout_height="wrap_content"
             android:text="N:B Faractional number may have slight difference from the orginal grade as proper decimal points are not given as input"/>
 
@@ -137,6 +151,7 @@
             android:textSize="20sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/tr"
             android:text="How to use?\n1.Enter your curent CGPA.\n2.Enter total earned Credit. Do not add current semester credit.\n3.Enter your course grade of this semester.\n4.Enter credit and press add.\n5.Keep adding one after another.\n6.After you are done adding press calculate.\n7.Press reset to clear all the values."
             />
 

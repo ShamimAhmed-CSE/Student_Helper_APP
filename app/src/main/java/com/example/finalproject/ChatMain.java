@@ -36,7 +36,6 @@ ImageView imgLogout;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat_main);
-        getSupportActionBar().hide();
         auth = FirebaseAuth.getInstance();
         database = FirebaseDatabase.getInstance();
 imgLogout = findViewById(R.id.img_logout);

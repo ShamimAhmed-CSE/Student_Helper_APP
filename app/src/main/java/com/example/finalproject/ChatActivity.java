@@ -47,7 +47,6 @@ public static String sImage, rImage;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat);
-        getSupportActionBar().hide();
         database = FirebaseDatabase.getInstance();
         auth = FirebaseAuth.getInstance();
         profileimage = findViewById(R.id.profile_image);
@@ -75,8 +74,6 @@ public static String sImage, rImage;
         receiverRoom = receiveruid + SenderUID;
        DatabaseReference reference = database.getReference().child("user").child(auth.getUid());
         DatabaseReference chatreference = database.getReference().child("chats").child(senderRoom).child("messages");
-
-
 
         chatreference.addValueEventListener(new ValueEventListener() {
     @Override
